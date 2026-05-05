@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HèrèTV</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    background: #000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,100,0,0.8));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00a651;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #006400;
+}
+
+/* PROGRAMMES */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR AVEC LOGO -->
+<nav>
+    <img src="461938318_505826882336400_2564269730013498729_n.jpg" alt="HèrèTV Logo">
+    <div>
+        <a href="#">Accueil</a>
+        <a href="#mission">Mission</a>
+        <a href="#programmes">Programmes</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <img src="461938318_505826882336400_2564269730013498729_n.jpg" alt="HèrèTV Logo">
+        <h1>HèrèTV</h1>
+        <p>Culture • Société • Développement</p>
+        <button class="btn">Regarder</button>
+    </div>
+</section>
+
+<!-- MISSION -->
+<section id="mission">
+    <h2>Mission</h2>
+    <p>Créer un espace médiatique positif, éducatif et valorisant pour chaque Malien.</p>
+</section>
+
+<!-- PROGRAMMES -->
+<section id="programmes">
+    <h2>Programmes</h2>
+    <div class="cards">
+        <div class="card">🎭 Culture</div>
+        <div class="card">💡 Motivation</div>
+        <div class="card">🎬 Documentaires</div>
+        <div class="card">🎤 Interviews</div>
+        <div class="card">🎉 Divertissement</div>
+        <div class="card">📰 Journal TV</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>📍 Magnabou Faso Kanou, Bamako, Mali</p>
+    <p>📞 72 98 98 20</p>
+    <p>📧 heretv72@gmail.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 HèrèTV</p>
+</footer>
+
+</body>
+</html>
+
+<section>
+  <h2>Actualités</h2>
+
+  <div class="card">
+    <h3>Titre actualité</h3>
+    <p>Contenu ici...</p>
+  </div>
+
+</section>
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https:; media-src https:;">
